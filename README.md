@@ -1,24 +1,12 @@
 # SPECTRE
-Worship at the Altar of Dataism
+Worship at the Altar
 
 <br/>
 
 
 ## Installation
 
-We use yarn.
-
-### Dependencies and Versions
-
-```
-Yarn version: v1.16
-```
-
-Test versions with:
-
-```
-yarn -v
-```
+We use yarn (v1.16)
 
 NOTE: all instructions below assume you are within the /spectre folder:
 
@@ -28,16 +16,19 @@ cd spectre
 
 ### Installing Dependencies
 
-
 When you have the correct versions, install the required dependencies.
 
 ```
-yarn run full-install
+yarn install
 ```
 
 <br/>
 
-## Server (no client required)
+### Test
+
+```
+yarn test
+```
 
 ### Start (requires a local mongodb)
 
@@ -46,27 +37,9 @@ yarn start
 ```
 
 
-### Test (without starting the server)
 
-```
-yarn test
-```
 
 <br/>
 
-## Client (no server required)
-
-### Start (for dev)
-
-```
-yarn run start-client
-```
-
-### Build (for deploy)
-
-```
-yarn run build-client
-```
-
-For more details on the client, see [these instructions](web-client/README.md)
-<br>
+For more details on the client, see [these instructions](https://github.com/dhowe/spectre/)
+<br/>
