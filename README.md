@@ -21,6 +21,6 @@ yarn test
 ```
 yarn start
 ```
-
+<br/>
 For more details on the client app, see [these instructions](https://github.com/dhowe/spectre/)
 <br/>
