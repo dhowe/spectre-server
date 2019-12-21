@@ -1,22 +1,15 @@
 {
   "name": "spectre-server",
-  "license": "UNLICENSED",
   "version": "1.0.2",
   "description": "Server component for the SPECTRE system",
   "main": "app.js",
   "scripts": {
     "test": "NODE_ENV=test mocha ./tests --recursive --exit -r esm",
     "test-grep": "NODE_ENV=test mocha ./tests --recursive --exit -r esm -g",
-    "start": "node -r esm server.js",
-    "server": "node -r esm server.js",
-    "client": "cd web-client && yarn start",
-    "full-install": "yarn install & cd web-client && yarn install && cd -",
-    "build-client": "cd web-client && yarn build",
-    "start-client": "cd web-client && yarn start",
-    "client-server": "yarn start",
-    "preclient-server": "cd web-client && yarn run build"
+    "start": "node -r esm server.js"
   },
   "author": "daniel howe",
+  "license": "UNLICENSED",
   "dependencies": {
     "archiver": "^3.0.0",
     "basic-auth": "~2.0.0",
