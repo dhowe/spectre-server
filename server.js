@@ -2,7 +2,6 @@ import path from 'path';
 import cors from 'cors';
 import express from 'express';
 import logger from './logger';
-//import multer from 'multer';
 import routes from './routes';
 import mongoose from 'mongoose';
 import bodyparser from 'body-parser';
@@ -11,6 +10,7 @@ import { dbUrl, apiUser } from './config';
 import controller from './user-controller';
 
 const base = '/api/';
+const withClient = false
 const port = process.env.PORT || 8083;
 const dev = process.env.NODE_ENV === 'test';
 
@@ -33,7 +33,7 @@ app.all('*', logger('[:date[clf]] :remote-addr :method :url :status', {
 }));
 
 // static react files (no-auth)
-app.use(express.static(path.join(__dirname, 'web-client/build')));
+withClient && app.use(express.static(path.join(__dirname, 'web-client/build')));
 
 // current user route (no-auth)
 app.get(base+'users/current/:cid', controller.current);
@@ -42,7 +42,7 @@ app.get(base+'users/current/:cid', controller.current);
 app.use(base, auth, routes);
 
 // for all react pages (no-auth)
-app.get('*', (req, res) => {
+withClient && app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/web-client/build/index.html'));
 });
 
