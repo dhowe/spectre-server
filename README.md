@@ -1,5 +1,5 @@
 # SPECTRE
-Worship at the Altar
+**Worship at the Altar**
 
 ## Installation
 
@@ -13,8 +13,6 @@ cd spectre-server
 yarn install
 ```
 
-<br/>
-
 ### Test
 
 ```
@@ -27,10 +25,5 @@ yarn test
 yarn start
 ```
 
-
-
-
-<br/>
-
-For more details on the client, see [these instructions](https://github.com/dhowe/spectre/)
+For more details on the client app, see [these instructions](https://github.com/dhowe/spectre/)
 <br/>
