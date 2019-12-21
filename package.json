@@ -1,7 +1,7 @@
 {
   "name": "spectre-server",
-  "version": "1.0.2",
-  "description": "Server component for the SPECTRE system",
+  "version": "1.1.1",
+  "description": "Server for Spectre app",
   "main": "app.js",
   "scripts": {
     "test": "NODE_ENV=test mocha ./tests --recursive --exit -r esm",
