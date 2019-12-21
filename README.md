@@ -1,6 +1,6 @@
 ## Installation
 
-First make sure you have installed yarn (v1.16) for your OS, then:
+First make sure you have installed git and yarn (v1.16) for your OS, then:
 
 ```
 git clone https://github.com/dhowe/spectre-server.git
