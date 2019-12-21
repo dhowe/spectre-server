@@ -6,7 +6,9 @@ Worship at the Altar
 
 ## Installation
 
+```
 We use yarn (v1.16)
+```
 
 NOTE: all instructions below assume you are within the /spectre folder:
 
