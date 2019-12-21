@@ -1,26 +1,15 @@
 # SPECTRE
 Worship at the Altar
 
-<br/>
-
-
 ## Installation
 
-```
-We use yarn (v1.16)
-```
-
-NOTE: all instructions below assume you are within the /spectre folder:
+First make sure you have installed yarn (v1.16) for your OS, then:
 
 ```
-cd spectre
-```
+git clone https://github.com/dhowe/spectre-server.git
 
-### Installing Dependencies
+cd spectre-server
 
-When you have the correct versions, install the required dependencies.
-
-```
 yarn install
 ```
 
