@@ -1,6 +1,3 @@
-# SPECTRE
-**Worship at the Altar**
-
 ## Installation
 
 First make sure you have installed yarn (v1.16) for your OS, then:
