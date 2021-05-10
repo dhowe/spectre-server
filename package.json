@@ -43,7 +43,7 @@
     "express-basic-auth": "^1.2.0",
     "form-data": "^3.0.0",
     "json-loader": "^0.5.7",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "mongodb": "^3.2.6",
     "mongoose": "^5.8.1",
     "morgan": "^1.9.1",
